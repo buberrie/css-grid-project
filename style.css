@@ -2,14 +2,14 @@
 
 body {
     background-color:  hsl(0, 0%, 98%); 
-    font-family: Poppins;
-    color: hsl(235, 13%, 33%);
-    font-weight: 200;        
+    font-family: 'Poppins', sans-serif;
+    color: hsl(240, 10%, 6%);
+    font-weight: 400;        
 }
 
 #container {
     height: 100%;
-    width: 100%;
+   width: 100%;
     top: 0;
     right: 0;
     bottom: 0;
@@ -19,42 +19,50 @@ body {
 
 header {
     text-align: center;
-    padding: 15px;
-    font-size: 0.9rem;
-    width: 35%;
+    padding: 50px;
+    font-size: 1rem;
+    width: 40%;
     margin: 0 auto;  
 }
 
 #bold {
-    font-weight: bold;
-    font-size: 2rem;
+    font-weight: 700;
+    font-size: 2.1rem;
+    color: black;
 }
 
 #light {
-    font-size: 2rem;
+    font-size: 2.1rem;
+    color: black;
 } 
 
-.content {
-    font-size: 0.8rem;
+.content-header {
+    color: black;
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-bottom: 0;
 }
 
-.content-header + .content {
-    line-height: 1.5;
+.content {
+    font-size: 0.9rem;
+    font-weight: 200;
 }
+
 
 #grid-area {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(4,1fr);
-    width: 70%;
-   
+    width: 80%;
+    grid-gap: space-around;
+    margin: 20px;
     margin: auto;
 }
 
 .cards {
     background-color:  white;
-    width: 250px;
-    height: 190px;
+    width: 300px;
+    height: 250px;
     border-radius: 5px;
     padding: 0 20px;
     box-shadow: 4px 4px 10px rgba(3, 3, 3, 0.1), -4px 4px 10px rgba(3, 3, 3, 0.1);
@@ -91,9 +99,9 @@ header {
 
 img {
     position: absolute;
-    width: 40px;
-    right: 20px;
-    bottom: 20px;
+    width: 60px;
+    right: 30px;
+    bottom: 30px;
 }
 
 
@@ -119,11 +127,11 @@ img {
 
     #bold {
         font-weight: bold;
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
     
     #light {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
 
     #grid-area {
@@ -173,7 +181,7 @@ img {
 
     .cards {
         background-color:  white;
-        width: 240px;
+        width: 280px;
         height: 190px;
         border-radius: 5px;
         padding: 2px 20px;
