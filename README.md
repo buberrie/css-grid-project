@@ -23,10 +23,11 @@ Users should be able to:
 
 ### Screenshot
 DESKTOP VIEW
-images\css-card-grid desktop view.jpg
+![css-card-grid desktop view](https://user-images.githubusercontent.com/83277559/137622030-1d263bb5-7620-4141-a847-e532229b2fcd.jpg)
+ 
 
 MOBILE VIEW
-images\css-card-grid mobile view.jpg
+![css-card-grid mobile view](https://user-images.githubusercontent.com/83277559/137622065-81d18a9e-7a4f-418f-aada-9f643cfef321.jpg)
 
 ### Links
 
