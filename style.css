@@ -4,7 +4,7 @@ body {
     background-color:  hsl(0, 0%, 98%); 
     font-family: 'Poppins', sans-serif;
     color: hsl(240, 10%, 6%);
-    font-weight: 400;        
+    font-weight: 200;        
 }
 
 #container {
@@ -26,7 +26,7 @@ header {
 }
 
 #bold {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 2.1rem;
     color: black;
 }
@@ -38,7 +38,7 @@ header {
 
 .content-header {
     color: black;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 1.25rem;
     margin-bottom: 0;
 }
